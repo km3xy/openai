@@ -1,8 +1,35 @@
+
+新版的qpython自带python无需去安装，
+
+
+
+
 克隆成功但是安装时报错，未找到好的解决方案
 
 
 
-现在你已经知道 QPython 的工作目录是 /storage/emulated/0/Android/data/org.qpython.qpy/files，可以继续操作来下载、解压并安装 OpenAI 库。步骤如下：下载 OpenAI 库 ZIP 文件： 在浏览器中访问 OpenAI GitHub 页面，点击 "Code" 按钮，选择 "Download ZIP" 下载源码压缩包。将 ZIP 文件移动到 QPython 工作目录： 使用文件管理器将下载的 ZIP 文件移动到 /storage/emulated/0/Android/data/org.qpython.qpy/files 目录。在 QPython 中解压 ZIP 文件： 在 QPython 编辑器中创建一个脚本，使用以下代码来解压 ZIP 文件：import zipfile
+现在你已经知道 QPython 的工作目录是 /storage/emulated/0/Android/data/org.qpython.qpy/files，
+
+
+可以继续操作来下载、解压并安装 OpenAI 库。步骤如下：下载 OpenAI 库 ZIP 文件： 在浏览器中访问 OpenAI GitHub 页面，点击 "Code" 按钮，选择 "Download ZIP" 下载源码压缩包。
+
+将 ZIP 文件移动到 QPython 工作目录： 使用文件管理器将下载的 ZIP 文件移动到 /storage/emulated/0/Android/data/org.qpython.qpy/files 目录。在 QPython 中解压 ZIP 文件：
+
+
+在 QPython 编辑器中创建一个脚本，保存运行即可看到效果，
+
+是对还是报错，
+
+在 QPython 编辑器中创建一个脚本运行任何的python脚本
+
+
+只要是python脚本都可以，在 在 QPython 编辑器中创建调试运行，
+
+
+qpython自带的编辑器非常好用，
+
+
+在 QPython 编辑器中创建一个脚本，使用以下代码来解压 ZIP 文件：import zipfile
 
 zip_path = '/storage/emulated/0/Android/data/org.qpython.qpy/files/openai-python-main.zip'  # 替换为实际的 ZIP 文件名
 extract_path = '/storage/emulated/0/Android/data/org.qpython.qpy/files/openai-python'  # 选择解压路径
