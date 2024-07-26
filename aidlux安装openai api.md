@@ -1,5 +1,16 @@
 
+
+https://community.aidlux.com/aidluxdownload
+
+
+
 aidlux官网方下载地址
+
+
+
+https://community.aidlux.com/aidluxdownload
+
+
 
 https://docs.aidlux.com/#/intro/download
 
