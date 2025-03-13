@@ -18,3 +18,14 @@ echo "你好";
 5. 进入新目录并运行 PHP 文件在 Termux 中运行以下命令：cd /storage/emulated/0/termux_files
 php hello.php你应该会看到输出：你好，
 通过这些步骤，你可以轻松地创建并运行一个简单的 PHP 脚本。如果有任何问题或需要进一步帮助，请告诉我。
+
+
+
+
+必须先开启文件访问权限
+
+termux-setup-storage
+
+
+
+
